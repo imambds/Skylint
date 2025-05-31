@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/logo.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Apweather is a weather forecast checker app for the web that built with react js & tailwindcss"
+    />
+    <meta name="keywords" content="reactjs, weather, weatherapp, weathertracker, tailwind, tailwindcss, apweather, forecast">
+    <meta name="author" content="Imam Budi Prakoso">
+    <!-- Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            'body': ['Poppins']
+          },
+          extend: {
+            colors: {
+              'navy': '#09153E',
+              'lime': "#28E13B",
+              'light-navy': "#152350",
+              'low-navy': "#212E59",
+              'light-gray': "#BFBFBF",
+              "half-white": "#EEEEEE"
+            }
+          }
+        }
+      }
+    </script>
+    <title>Skylint | Weather App</title>
+  </head>
+  <body class="font-body bg-navy">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
